@@ -1,4 +1,4 @@
-import styles from './Heading.module.css'
+import styles from './styles.module.css'
 
 /* Tipando as propriedades do Heading */
 type HeadingProps = {
