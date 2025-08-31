@@ -1,7 +1,8 @@
 import styles from './Heading.module.css'
 
+/* Tipando as propriedades do Heading */
 type HeadingProps = {
-  children: React.ReactNode
+  children: React.ReactNode /* Tipando para qualquer tipo que o React aceita*/
 }
 
 export function Heading({ children }: HeadingProps) {
